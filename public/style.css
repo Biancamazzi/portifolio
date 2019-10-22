@@ -1,0 +1,14 @@
+.inicio{
+    background-image: url("img/beautiful-bloom-blooming-371393.jpg" );
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+
+}
+.inicio nav{
+    opacity: 0.5;
+}
+
+.nome{
+    color: white;
+}
