@@ -1,14 +1,46 @@
 .inicio{
     background-image: url("img/beautiful-bloom-blooming-371393.jpg" );
-    height: 500px;
+    height: 360px;
     background-size: cover;
     background-position: center;
 
 }
 .inicio nav{
-    opacity: 0.5;
+    position: relative;
+    top: 5%;
+    opacity: 0.6;
+    border-radius: 10px;
 }
 
+.nome1{
+    color: white;
+}
 .nome{
     color: white;
+    position: relative;
+    text-align: center;
+    
+}
+.trab1 img {
+    height: 500px;
+
+}
+.trabalhos-row{
+    background-color:#b9b0b0;
+}
+.trabalhos{
+  
+    padding: 20px;
+}
+.no-gutters{ 
+    height: 350px;
+    overflow: hidden;
+}
+.contatos{
+    background-color:#b9b0b6;
+    width: 150px;
+    color: white;
+}
+.card{
+    margin:5px;
 }
