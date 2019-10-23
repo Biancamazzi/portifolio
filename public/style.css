@@ -13,9 +13,10 @@
 }
 
 .nome1{
+    position: relative;
     color: white;
     text-shadow: 2px 2px #000;
-}
+    }
 .nome,{
     color: white;
     position: relative;
@@ -30,6 +31,7 @@
     background-color:#b9b0b0;
 }
 .trabalhos{
+    background-image: url("img/linha.png");
     color: white;
     padding: 20px;
     text-align: center;
