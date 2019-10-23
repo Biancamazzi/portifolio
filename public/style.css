@@ -1,6 +1,6 @@
 .inicio{
     background-image: url("img/beautiful-bloom-blooming-371393.jpg" );
-    height: 360px;
+    height: 320px;
     background-size: cover;
     background-position: center;
 
@@ -14,8 +14,9 @@
 
 .nome1{
     color: white;
+    text-shadow: 2px 2px #000;
 }
-.nome{
+.nome,{
     color: white;
     position: relative;
     text-align: center;
@@ -29,8 +30,9 @@
     background-color:#b9b0b0;
 }
 .trabalhos{
-  
+    color: white;
     padding: 20px;
+    text-align: center;
 }
 .no-gutters{ 
     height: 350px;
@@ -38,7 +40,6 @@
 }
 .contatos{
     background-color:#b9b0b6;
-    width: 150px;
     color: white;
 }
 .card{
