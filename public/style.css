@@ -48,13 +48,15 @@
     font-family: 'Nanum Myeongjo', serif;
 }
 .card-body{
-    color: black;
+    color: white;
     font-family: 'Heebo', sans-serif;
 }
 .no-gutters{ 
     height: 350px;
     overflow: hidden;
-}
+    border: 2px solid #ccbbc7 !important;
+    border-radius: 10px;
+    }
 .contatos{
     background-color:#b9b0b6;
     color: white;
@@ -64,6 +66,12 @@
 }
 .card{
     margin:5px;
+    background-color: #a4929e !important;
+    padding-top: 15px;    
+}
+
+.card-title{
+    border-bottom: 2px solid #fff !important;
 }
 @media only screen and (max-width: 600px) {
     .nome1 {
