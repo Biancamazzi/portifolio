@@ -83,6 +83,12 @@
 .card-title{
     border-bottom: 2px solid #fff !important;
 }
+
+.depoimentos{
+    position: relative; 
+    bottom: 11%;
+    
+}
 @media only screen and (max-width: 600px) {
     .nome1 {
         background-color: rgba(107,78,101,0.6);
@@ -93,4 +99,9 @@
         height: auto;
         padding-bottom: 15px;
     }
+    .depoimentos{
+    position:relative;
+    bottom: 0%;
+    }
+     
   }
