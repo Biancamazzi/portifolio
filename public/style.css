@@ -35,7 +35,7 @@
     text-shadow: 2px 2px #000;
     font-family: 'Heebo', sans-serif;
     }
-    
+
 .nome {
     color: white;
     position: relative;
@@ -85,13 +85,13 @@
 .card-title{
     color: black;
     font-weight: bold;  
-    background-color: white;
+    background-color: rgba(240, 240, 240, 0.8);
     font-family: 'Nanum Myeongjo', serif;
-}
+    }
 .card-text{
     color: black;
     font-weight: bold;
-    background-color: white;
+    background-color: rgba(240, 240, 240, 0.8);
     font-family: 'Nanum Myeongjo', serif;
 }
 /* .no-gutters{ 
