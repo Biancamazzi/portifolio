@@ -1,9 +1,8 @@
 .inicio{
     background-image: url("img/pink-flowers.jpg" );
-    height: 320px;
+    height: 224px;
     background-size: cover;
     background-position: center;
-    background:no-repeat
 
 }
 .inicio nav{
@@ -13,6 +12,10 @@
     border-radius: 10px;
 }
 
+.container-fluid{
+    padding-right: 0px; important: !;
+    padding-left: 0px; importante: !;
+}
 .nome1{
     position: relative;
     color: white;
