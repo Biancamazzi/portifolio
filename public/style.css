@@ -1,6 +1,6 @@
 .inicio{
     background-image: url("img/pink-flowers.jpg" );
-    height: 224px;
+    height: 255px;
     background-size: cover;
     background-position: center;
 
@@ -13,9 +13,14 @@
 }
 
 .container-fluid{
-    padding-right: 0px; important: !;
-    padding-left: 0px; importante: !;
+    padding-right: 0px;
+    padding-left: 0px; 
+}  
+    
+.bg-light {
+    background-color: #f7e6fa!important;
 }
+
 .nome1{
     position: relative;
     color: white;
