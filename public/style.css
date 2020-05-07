@@ -62,7 +62,7 @@ h2{
 .trabalhos{
     background-image: url(img/lace2.png);
     background-repeat: no-repeat;
-    background-color:#f8f8f8;
+    background-color:#efeee9;
     color: #a4929e;
     padding: 10px 0 30px 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -76,6 +76,19 @@ h2{
     margin:5px !important;;
     
 }
+
+.card-img-top{
+    transition: transform 1s, filter 1s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(80%);
+}
+.card:hover img {
+    filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+
+
 .bg-dark {
     background-color: white!important;
 }
@@ -112,7 +125,7 @@ h2{
     border-radius: 10px;
     } */
 .contatos{
-    background-color:#f8f8f8;
+    background-color:#efeee9;
     color: #a4929e;
     padding: 10px 0 30px 0;
     ffont-family: 'Source Sans Pro', sans-serif;
