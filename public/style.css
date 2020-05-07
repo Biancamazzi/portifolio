@@ -1,7 +1,10 @@
-a{
-    color: white !important;
+a:link:hover  { 
+ text-decoration:none; 
+} 
+h4{
+    width: max-content;
+    padding: 5px;
 }
-
 .inicio{
     background-image: url("img/pink-flowers.jpg" );
     height: 300px;
@@ -15,6 +18,7 @@ a{
     opacity: 0.6;
     border-radius: 10px;
 }
+
 
 .container-fluid{
     padding-right: 0px;
@@ -92,6 +96,7 @@ a{
     font-weight: bold;  
     background-color: rgba(240, 240, 240, 0.8);
     font-family: 'Nanum Myeongjo', serif;
+    
     }
 .card-text{
     color: black;
