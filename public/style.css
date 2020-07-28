@@ -25,8 +25,6 @@ h2{
 .inicio nav{
     opacity: 0.6;
 }
-
-
 .container-fluid{
     padding-right: 0px;
     padding-left: 0px; 
@@ -110,6 +108,7 @@ h2{
     font-weight: bold;
     background-color: rgba(240, 240, 240, 0.9);
     font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
     
 }
 
