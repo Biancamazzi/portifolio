@@ -8,18 +8,22 @@ h4{
 h2{
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 .inicio{
-    background-image: url("img/cover3.jpg" );
+    background-image: url("img/cover5.jpg" );
     height: 450px;
     background-size: cover;
     background-position: -3px -135px;
 
 }
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #d9b09e !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #d9b09e !important;
+}
 .inicio nav{
-    position: relative;
-    top: 5%;
     opacity: 0.6;
-    border-radius: 10px;
 }
 
 
@@ -29,23 +33,23 @@ h2{
 }  
     
 .bg-light {
-    background-color: white!important;
+    background-color: #efefef!important;
 }
 
 .nome1{
     position: relative;
-    color: #a4929e;    
+    color: #d9b09e;    
     font-family: 'Source Sans Pro', sans-serif;
     }
 
 .nome2{
     position: relative;
-    color: #a4929e;    
+    color: #d9b09e;    
     font-family: 'Source Sans Pro', sans-serif;
     }
 
 .nome {
-    color: #a4929e;
+    color: #d9b09e;
     position: relative;
     text-align: center;
         
@@ -55,15 +59,12 @@ h2{
 
 }
 .trabalhos-row{
-    background-color:#a4929e;
+    background-color:#d9b09e;
     padding-bottom: 13px;
 
 }
-.trabalhos{
-    background-image: url(img/lace2.png);
-    background-repeat: no-repeat;
-    background-color:#efeee9;
-    color: #a4929e;
+.trabalhos{    
+    color: #d9b09e;
     padding: 10px 0 30px 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -84,17 +85,16 @@ h2{
 }
 .card:hover img {
     filter: brightness(100%);
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
-
 
 
 .bg-dark {
-    background-color: white!important;
+    background-color: #fff!important;
 }
 .btn btn-primary{
     color: black !important;
-    background-color: white !important;
+    background-color: #fff !important;
     font-weight: bold;
 }
 .row{
@@ -102,33 +102,24 @@ h2{
 }
 
 .card-body{
-    color: white;
+    color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.card-title{
-    color: black;
-    font-weight: bold;  
-    background-color: rgba(240, 240, 240, 0.8);
+.card-title, .card-text{    
+    color: #d9b09e;
+    font-weight: bold;
+    background-color: rgba(240, 240, 240, 0.9);
     font-family: 'Source Sans Pro', sans-serif;
     
-    }
-.card-text{
-    color: black;
-    font-weight: bold;
-    background-color: rgba(240, 240, 240, 0.8);
-    ffont-family: 'Source Sans Pro', sans-serif;
 }
-/* .no-gutters{ 
-    height: 350px;
-    overflow: hidden;
-    border: 2px solid #ccbbc7 !important;
-    border-radius: 10px;
-    } */
-.contatos{
-    background-color:#efeee9;
-    color: #a4929e;
+
+.contatos{    
+    background-image: url(img/lace2.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    color: #d9b09e;
     padding: 10px 0 30px 0;
-    ffont-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .me{
     border-radius: 50%;
@@ -146,18 +137,19 @@ h2{
     
 }
 @media only screen and (max-width: 600px) {
-    .nome1 {
-        background-color: rgba(107,78,101,0.3);
-        color: white;
-        font-weight: bold;
+    .nome2{
+        background-color: #fff;
     }
     .inicio{
         height: auto;
         padding-bottom: 15px;
     }
-    .depoimentos{
-    position:relative;
-    bottom: 0%;
+    .trabalhos{
+        background-color: #fff;
+    }
+    .contatos{
+        background-color: #fff;
+        background-position-x: initial;
     }
      
   }
